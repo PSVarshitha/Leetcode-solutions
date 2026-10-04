@@ -1,6 +1,23 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+Test Case 1 - Typical Case
+Input:
+()[]{}
+
+Expected Output:
+Valid Parentheses
+
+
+Test Case 2 - Edge Case
+Input:
+([)]
+
+Expected Output:
+Invalid Parentheses
+*/
+
 int main() {
     char str[100];
     char stack[100];

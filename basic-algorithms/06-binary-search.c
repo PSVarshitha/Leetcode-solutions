@@ -1,5 +1,26 @@
 #include <stdio.h>
 
+/*
+Test Case 1 - Typical Case
+Input:
+6
+1 2 3 4 5 6
+4
+
+Expected Output:
+Target found at index: 3
+
+
+Test Case 2 - Edge Case
+Input:
+5
+1 2 3 4 5
+10
+
+Expected Output:
+Target not found
+*/
+
 int main() {
     int n, target;
     int arr[100];

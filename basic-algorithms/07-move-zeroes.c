@@ -1,5 +1,24 @@
 #include <stdio.h>
 
+/*
+Test Case 1 - Typical Case
+Input:
+5
+0 1 0 3 12
+
+Expected Output:
+Array after moving zeroes: 1 3 12 0 0
+
+
+Test Case 2 - Edge Case
+Input:
+4
+0 0 0 0
+
+Expected Output:
+Array after moving zeroes: 0 0 0 0
+*/
+
 int main() {
     int n;
     int arr[100];

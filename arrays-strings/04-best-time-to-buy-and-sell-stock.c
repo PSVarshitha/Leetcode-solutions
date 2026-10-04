@@ -1,5 +1,24 @@
 #include <stdio.h>
 
+/*
+Test Case 1 - Typical Case
+Input:
+6
+7 1 5 3 6 4
+
+Expected Output:
+Maximum Profit: 5
+
+
+Test Case 2 - Edge Case
+Input:
+5
+7 6 4 3 1
+
+Expected Output:
+Maximum Profit: 0
+*/
+
 int main() {
     int n;
     int prices[100];

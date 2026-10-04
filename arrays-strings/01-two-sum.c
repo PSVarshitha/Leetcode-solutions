@@ -1,5 +1,26 @@
 #include <stdio.h>
 
+/*
+Test Case 1 - Typical Case
+Input:
+5
+2 7 11 15 3
+9
+
+Expected Output:
+Indices: 0 and 1
+
+
+Test Case 2 - Edge Case
+Input:
+2
+3 3
+6
+
+Expected Output:
+Indices: 0 and 1
+*/
+
 int main() {
     int n, target;
     int nums[100];

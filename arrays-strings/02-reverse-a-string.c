@@ -1,6 +1,23 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+Test Case 1 - Typical Case
+Input:
+hello
+
+Expected Output:
+Reversed string: olleh
+
+
+Test Case 2 - Edge Case
+Input:
+a
+
+Expected Output:
+Reversed string: a
+*/
+
 int main() {
     char str[100];
     int i, j;

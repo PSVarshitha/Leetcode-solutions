@@ -1,6 +1,28 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+Test Case 1 - Typical Case
+Input:
+3
+flower
+flow
+flight
+
+Expected Output:
+Longest Common Prefix: fl
+
+
+Test Case 2 - Edge Case
+Input:
+2
+dog
+racecar
+
+Expected Output:
+Longest Common Prefix:
+*/
+
 int main() {
     int n, i, j;
     char str[100][100];

@@ -1,6 +1,25 @@
 #include <stdio.h>
 #include <string.h>
 
+/*
+Test Case 1 - Typical Case
+Input:
+listen
+silent
+
+Expected Output:
+Valid Anagram
+
+
+Test Case 2 - Edge Case
+Input:
+a
+b
+
+Expected Output:
+Not an Anagram
+*/
+
 int main() {
     char str1[100], str2[100];
     int count[256] = {0};
